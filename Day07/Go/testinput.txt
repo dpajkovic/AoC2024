@@ -1,1 +1,0 @@
-Day07/testinput.txt
