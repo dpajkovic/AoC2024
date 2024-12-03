@@ -11,7 +11,7 @@ import (
 	"testing"
 )
 
-func TestPart1(t *testing.T) {
+func TestPart2(t *testing.T) {
 	file, err := os.Open("../testinput.txt")
 	if err != nil {
 		panic(err)
@@ -44,7 +44,7 @@ func TestPart1(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := Part2(tt.args.input); got != tt.want {
-				t.Errorf("Part1() = %v, want %v", got, tt.want)
+				t.Errorf("Part2() = %v, want %v", got, tt.want)
 			}
 		})
 	}
